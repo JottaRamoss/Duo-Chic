@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duochic - Moda Feminina Elegante</title>
+    <meta name="description" content="Duochic - Loja de moda feminina elegante no Shopping Jardim Guadalupe. Vestidos, conjuntos e macacões sofisticados.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1 class="logo-text">DUO CHIC</h1>
+                    <span class="logo-subtitle">Moda Feminina</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#produtos" class="nav-link">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <div class="nav-social">
+                    <a href="https://www.instagram.com/duochic_oficial_/" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/5521999999999" target="_blank" class="social-link whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-subtitle">Bem-vinda à</span>
+                    <span class="hero-main">DUO CHIC</span>
+                </h1>
+                <p class="hero-description">
+                    Descubra a elegância em cada peça. Moda feminina sofisticada para mulheres que valorizam estilo e qualidade.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#produtos" class="btn btn-primary">Ver Coleção</a>
+                    <a href="https://wa.me/5521999999999" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i>
+                        Fale Conosco
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-container">
+                    <div class="floating-card card-1">
+                        <img src="images/hero-1.jpg" alt="Vestido elegante">
+                    </div>
+                    <div class="floating-card card-2">
+                        <img src="images/hero-2.jpg" alt="Conjunto sofisticado">
+                    </div>
+                    <div class="floating-card card-3">
+                        <img src="images/hero-3.jpg" alt="Macacão moderno">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos em Destaque -->
+    <section id="produtos" class="produtos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Coleção</h2>
+                <p class="section-subtitle">Peças cuidadosamente selecionadas para realçar sua elegância</p>
+            </div>
+            
+            <div class="produtos-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="vestidos">Vestidos</button>
+                <button class="filter-btn" data-filter="conjuntos">Conjuntos</button>
+                <button class="filter-btn" data-filter="macacoes">Macacões</button>
+            </div>
+
+            <div class="produtos-grid">
+                <!-- Vestidos -->
+                <div class="produto-card" data-category="vestidos">
+                    <div class="produto-image">
+                        <img src="images/vestido-1.jpg" alt="Vestido Longo Estampado">
+                        <div class="produto-overlay">
+                            <button class="btn-quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Vestido Longo Estampado</h3>
+                        <p class="produto-descricao">Elegante vestido longo com estampa exclusiva</p>
+                        <div class="produto-preco">R$ 189,90</div>
+                    </div>
+                </div>
+
+                <div class="produto-card" data-category="vestidos">
+                    <div class="produto-image">
+                        <img src="images/vestido-2.jpg" alt="Vestido Midi Floral">
+                        <div class="produto-overlay">
+                            <button class="btn-quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Vestido Midi Floral</h3>
+                        <p class="produto-descricao">Vestido midi com estampa floral delicada</p>
+                        <div class="produto-preco">R$ 159,90</div>
+                    </div>
+                </div>
+
+                <div class="produto-card" data-category="vestidos">
+                    <div class="produto-image">
+                        <img src="images/vestido-3.jpg" alt="Vestido Longo Liso">
+                        <div class="produto-overlay">
+                            <button class="btn-quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Vestido Longo Liso</h3>
+                        <p class="produto-descricao">Vestido longo em tecido fluido</p>
+                        <div class="produto-preco">R$ 179,90</div>
+                    </div>
+                </div>
+
+                <!-- Conjuntos -->
+                <div class="produto-card" data-category="conjuntos">
+                    <div class="produto-image">
+                        <img src="images/conjunto-1.jpg" alt="Conjunto Marrom">
+                        <div class="produto-overlay">
+                            <button class="btn-quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Conjunto Marrom</h3>
+                        <p class="produto-descricao">Conjunto calça e blusa em tons terrosos</p>
+                        <div class="produto-preco">R$ 219,90</div>
+                    </div>
+                </div>
+
+                <div class="produto-card" data-category="conjuntos">
+                    <div class="produto-image">
+                        <img src="images/conjunto-2.jpg" alt="Conjunto Preto">
+                        <div class="produto-overlay">
+                            <button class="btn-quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Conjunto Preto</h3>
+                        <p class="produto-descricao">Conjunto elegante em preto</p>
+                        <div class="produto-preco">R$ 199,90</div>
+                    </div>
+                </div>
+
+                <div class="produto-card" data-category="conjuntos">
+                    <div class="produto-image">
+                        <img src="images/conjunto-3.jpg" alt="Conjunto Branco">
+                        <div class="produto-overlay">
+                            <button class="btn-quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Conjunto Branco</h3>
+                        <p class="produto-descricao">Conjunto sofisticado em branco</p>
+                        <div class="produto-preco">R$ 189,90</div>
+                    </div>
+                </div>
+
+                <!-- Macacões -->
+                <div class="produto-card" data-category="macacoes">
+                    <div class="produto-image">
+                        <img src="images/macacao-1.jpg" alt="Macacão Estampado">
+                        <div class="produto-overlay">
+                            <button class="btn-quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Macacão Estampado</h3>
+                        <p class="produto-descricao">Macacão longo com estampa exclusiva</p>
+                        <div class="produto-preco">R$ 229,90</div>
+                    </div>
+                </div>
+
+                <div class="produto-card" data-category="macacoes">
+                    <div class="produto-image">
+                        <img src="images/macacao-2.jpg" alt="Macacão Preto">
+                        <div class="produto-overlay">
+                            <button class="btn-quick-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Macacão Preto</h3>
+                        <p class="produto-descricao">Macacão elegante em preto</p>
+                        <div class="produto-preco">R$ 209,90</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <h2 class="section-title">Sobre a Duochic</h2>
+                    <p class="sobre-description">
+                        A Duochic nasceu da paixão por moda feminina elegante e sofisticada. Nossa missão é oferecer peças únicas que realcem a beleza natural de cada mulher, combinando qualidade, estilo e conforto.
+                    </p>
+                    <p class="sobre-description">
+                        Localizada no Shopping Jardim Guadalupe, nossa loja física oferece um ambiente acolhedor onde você pode experimentar e sentir a qualidade de cada peça. Nossa equipe está sempre pronta para ajudar você a encontrar o look perfeito para qualquer ocasião.
+                    </p>
+                    <div class="sobre-features">
+                        <div class="feature">
+                            <i class="fas fa-gem"></i>
+                            <h3>Qualidade Premium</h3>
+                            <p>Tecidos selecionados e acabamento impecável</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <h3>Estilo Único</h3>
+                            <p>Peças exclusivas para mulheres sofisticadas</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shipping-fast"></i>
+                            <h3>Atendimento Personalizado</h3>
+                            <p>Consultoria de moda e atendimento dedicado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    <img src="images/sobre-loja.jpg" alt="Loja Duochic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Estamos aqui para ajudar você a encontrar o look perfeito</p>
+            </div>
+            
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Localização</h3>
+                        <p>Shopping Jardim Guadalupe<br>Rio de Janeiro, RJ</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telefone</h3>
+                        <p>(21) 99999-9999</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>E-mail</h3>
+                        <p>contato@duochic.com.br</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Horário</h3>
+                        <p>Segunda a Sábado: 10h às 22h<br>Domingo: 14h às 20h</p>
+                    </div>
+                </div>
+                
+                <form class="contato-form">
+                    <div class="form-group">
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">DUO CHIC</h3>
+                    <p class="footer-description">Moda feminina elegante e sofisticada para mulheres que valorizam qualidade e estilo.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/duochic_oficial_/" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5521999999999" target="_blank" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Categorias</h4>
+                    <ul class="footer-links">
+                        <li><a href="#produtos">Vestidos</a></li>
+                        <li><a href="#produtos">Conjuntos</a></li>
+                        <li><a href="#produtos">Macacões</a></li>
+                        <li><a href="#produtos">Lançamentos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contato</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Shopping Jardim Guadalupe</p>
+                        <p><i class="fas fa-phone"></i> (21) 99999-9999</p>
+                        <p><i class="fas fa-envelope"></i> contato@duochic.com.br</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Duochic. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5521999999999" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
